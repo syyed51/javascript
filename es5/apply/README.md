@@ -1,5 +1,7 @@
 # apply()
-it is similar to call method. 
+
+it is similar to call method.
+
 ```javascript
 var person = {
     fullName: function() {
@@ -12,7 +14,9 @@ var person1 = {
 }
 person.fullName.apply(person1);  // Will return "Mary Doe"
 ```
+
 ## Arguments
+
 ```javascript
 var person = {
     fullName: function(city, country) {
@@ -25,4 +29,5 @@ var person1 = {
 }
 person.fullName.apply(person1, ["Oslo", "Norway"]);
 ```
+
 **Note** that type of arguments is array. 
