@@ -1,6 +1,6 @@
 # github markdown cheetsheet
 
-Here is personal refere sheet for markdown, some git markdown tags are added too. 
+Here is personal reffere sheet for markdown, some git markdown tags are added too.
 
 # Heading
 
@@ -10,29 +10,30 @@ Here is personal refere sheet for markdown, some git markdown tags are added too
 
 1. one
 1. two
-    - one
-    - two
+   - one
+   - two
 1. three
 
 - one
 - two
-    1. one
-    1. two
-    1. three
+  1. one
+  1. two
+  1. three
 - three
 
 ## Styling text
 
-**bold** or __bold__  
-*Italic* or _Italic_
+**bold** or **bold**  
+_Italic_ or _Italic_
 
-~~Strikethrough~~ or  **Bold and _italic_**
+~~Strikethrough~~ or **Bold and _italic_**
 
 ## Quoting
 
 While writing my tutorials, I thought:
+
 > why not write in markdown.
-> this line continues, the quote. 
+> this line continues, the quote.
 
 Quote break
 
@@ -59,7 +60,7 @@ This is [link](www.google.com) to www.google.com
 
 I'm an inline-style [link with title](https://www.google.com "Google's Homepage")
 
-Here is reference-style [link][My reference]
+Here is reference-style [link][my reference]
 
 Here is number reference-style [link][1]
 
@@ -67,7 +68,7 @@ Even better way for [reference style link]
 
 Here is how angel brackets/links behave. http://www.example.com or <http://www.example.com> and sometimes example.com (but not on Github, for example).
 
-[My reference]: https://www.mozilla.org
+[my reference]: https://www.mozilla.org
 [1]: http://slashdot.org
 [reference style link]: http://www.reddit.com
 
@@ -91,14 +92,13 @@ Three or more
 
 Hyphens
 
-***
+---
 
 Asterisks
 
-___
+---
 
 Underscores
-
 
 ```html
 <dl>
@@ -110,27 +110,26 @@ Underscores
 </dl>
 ```
 
-
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 
 ## Tables
 
 Colons can be used to align columns.
 
-| Tables        | Are           | Cool  |
-| -------------:|:-------------:|:------|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+|        Tables |      Are      | Cool  |
+| ------------: | :-----------: | :---- |
+|      col 3 is | right-aligned | $1600 |
+|      col 2 is |   centered    | $12   |
+| zebra stripes |   are neat    | $1    |
 
 There must be at least 3 dashes separating each header cell.
-The outer pipes (|) are optional, and you don't need to make the 
+The outer pipes (|) are optional, and you don't need to make the
 raw Markdown line up prettily. You can also use inline Markdown.
 
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
+| Markdown | Less      | Pretty     |
+| -------- | --------- | ---------- |
+| _Still_  | `renders` | **nicely** |
+| 1        | 2         | 3          |
 
 ## Task Lists
 

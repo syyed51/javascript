@@ -53,7 +53,7 @@ This list is mainly about JavaScript – the language. Not about APIs, tooling, 
 ## Free eBooks
 
 - [Eloquent JavaScript](http://eloquentjavascript.net) – Covering the language and runtime specifics.
-- [You Don't Know JS (book series)](https://github.com/getify/You-Dont-Know-JS) – Series of books diving deep into language.
+- [You Don't Know JS by Kyle Simpson (book series)](https://github.com/getify/You-Dont-Know-JS) – Series of books diving deep into language.
 - [Speaking JavaScript](http://speakingjs.com) - In-depth guide beginning with the basics.
 - [JavaScript Design Patterns](http://addyosmani.com/resources/essentialjsdesignpatterns/book/) - Classical and JavaScript specific design patterns.
 
@@ -66,6 +66,7 @@ Thin books which you can get through in a few days.
 - [JavaScript Enlightenment](http://shop.oreilly.com/product/0636920027713.do) - Will solidify your understanding of the language.
 
 ## Blogs
+
 - [②ality](http://www.2ality.com) - Language features and APIs well explained by author and trainer Dr. Axel Rauschmayer.
 - [Pony Foo](https://ponyfoo.com) - Detailed and high quality posts from Nicolás Bevacqua all related to JavaScript.
 
