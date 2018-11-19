@@ -1,6 +1,6 @@
 # Call
 
-Call method is useful to provide context, to callee.
+Call method is used for context binding, where arguments are comma separated objects.
 
 ```javascript
 var person = {

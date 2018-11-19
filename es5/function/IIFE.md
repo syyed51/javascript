@@ -23,7 +23,8 @@ console.log(name);
 ```
 
 This is because of Javascript has function scope. This is very powerful module pattern.
-And they can be passed arguments like any other function.
+
+> You can pass arguments to them.
 
 ```js
 (function(name) {

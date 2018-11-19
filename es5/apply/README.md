@@ -1,6 +1,6 @@
 # apply()
 
-it is similar to call method.
+Apply method is used for context binding, where arguments are provided in array.
 
 ```javascript
 var person = {
