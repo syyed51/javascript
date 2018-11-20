@@ -1,17 +1,17 @@
-## Built-in Types
+# Built-in Types
 
 JavaScript defines six built-in types:
 
-* `null`
-* `undefined`
-* `boolean`
-* `number`
-* `string`
-* `object`
+1. `null`
+2. `undefined`
+3. `boolean`
+4. `number`
+5. `string`
+6. `object`
 
-**Note:** All of these types except `object` are called "primitives".
+> All of these types except `object` are *primitives*.
 
-The `typeof` operator inspects the type of the given value, and always returns one of six string values -- surprisingly, there's not an exact 1-to-1 match with the six built-in types we just listed.
+The `typeof` operator inspects the type of the given value, and always returns one of six string values.
 
 ```js
 typeof undefined     === "undefined"; // true
@@ -21,7 +21,7 @@ typeof "42"          === "string";    // true
 typeof { life: 42 }  === "object";    // true
 ```
 
-`null` is exclude from the above listing. It's *special* -- special in the sense that it's buggy when combined with the `typeof` operator:
+`null` is exclude from the above listing. It's a spacial in the sense that it's buggy when combined with the `typeof` operator:
 
 ```js
 typeof null === "object"; // true
@@ -37,7 +37,7 @@ var a = null;
 (!a && typeof a === "object"); // true
 ```
 
-`null` is the only primitive value that is "falsy" but that also returns `"object"` from the `typeof` check.
+>`null` is the only primitive value that is "falsy" but that also returns `"object"` from the `typeof` check.
 
 So what's the sixth string value that `typeof` can return?
 
