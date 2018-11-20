@@ -23,8 +23,8 @@ Here is personal reffere sheet for markdown, some git markdown tags are added to
 
 ## Styling text
 
-**bold** or **bold**  
-_Italic_ or _Italic_
+__bold__ or **bold**  
+_Italic_ or *Italic*
 
 ~~Strikethrough~~ or **Bold and _italic_**
 
@@ -96,9 +96,10 @@ Hyphens
 
 Asterisks
 
----
+***
 
 Underscores
+___
 
 ```html
 <dl>
