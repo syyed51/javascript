@@ -6,7 +6,8 @@ Always remember that `length` is mutable.
 
 ```js
 var arr = [1,2,3];
-console.log(arr.length);
+console.log(arr.length); // 3
 arr.length=  20;
-console.log(arr.length);
+console.log(arr.length); //20
 ```
+
